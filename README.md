@@ -30,8 +30,8 @@ This must be run with python 3.7.
 Usage on port 22 may require additional privledges depending on system and SSH configuration.
 
 ## Future Additions
-Add configuration file support
-Potentially add primitive geolocaction for client connections
-potentially add HTTP serer support
+Add configuration file support.
+Potentially add primitive geolocaction for client connections.
+potentially add HTTP serer support.
 
 [es]: https://github.com/skeeto/endlessh
