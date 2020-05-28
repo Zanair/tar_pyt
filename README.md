@@ -1,7 +1,7 @@
 # tar_pyt
 SSH tarpit implemented in Python 3.7 with asyncio
 
-Essentially this is functional copy of [endlessh][es] by Chris Wellons, as suggested in his blog on that project. Asyncio is particularly  well suited to this application, and makes this program much simpler to implement than its C counterpart without sacrificing memory performance. The idea is to change your SSH port and leave this runnning on the default port 22, potentially trapping malicious connections and wasteing a small amout of their resources. I highly suggest you vist endlessh and the aforementioned blog for a more in-depth overview. 
+Essentially, this is a functional copy of [endlessh][es] by Chris Wellons, as suggested in his blog on that project. Asyncio is particularly well suited for this application, and it makes this program much simpler to implement than its C counterpart without sacrificing memory performance. The idea is to change your SSH port and leave tar_pyt runnning on the default port 22, potentially trapping malicious connections and wasteing a small part of their resources. I highly suggest you vist endlessh and the aforementioned blog for a more in-depth overview. 
 
 ## Usage
 Run with `python3.7 tar_pyt`, usage information is printed with `-h` or `-help`.
